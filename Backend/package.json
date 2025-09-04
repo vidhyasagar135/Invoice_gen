@@ -7,14 +7,20 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["node", "express", "mongodb", "invoice"],
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "invoice"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.19.2",
-    "mongoose": "^8.4.1"
+    "mongoose": "^8.4.1",
+    "multer": "^2.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
